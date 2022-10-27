@@ -10,4 +10,3 @@ const printInputBar = (event) => {
 }
 
 nameInputBar.addEventListener("input", printInputBar) 
-
