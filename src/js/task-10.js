@@ -16,8 +16,11 @@ function createBlocks(event) {
 
 const wrapperForNewElsChildrens = document.querySelector("wrapperForNewEls.children")
 destroyer.addEventListener('click', destroyBoxes);
+
+
 function destroyBoxes(event) {
   wrapperForNewEls.remove(wrapperForNewEls.children);
+  inputNumberOFBlocks.value = null;
 }
 
 
